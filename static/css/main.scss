@@ -1,4 +1,8 @@
+@import 'utilities/mixins';
+@import 'utilities/variables';
+
 @import 'base/reset';
+@import 'base/base';
 @import 'base/typography';
 
 @import 'components/buttons';
@@ -14,7 +18,5 @@
 @import 'pages/about';
 @import 'pages/contact';
 
-@import 'utilities/mixins';
-@import 'utilities/variables';
 
 @import 'vendors/vendor';

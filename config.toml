@@ -1,6 +1,5 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 defaultContentLanguage = "en"
 
 [permalinks]
@@ -11,7 +10,6 @@ defaultContentLanguage = "en"
 weight = 0
 languageName = "Eng"
 contentDir = "content/en"
-title = "My new Hugo blog"
 [languages.en.params]
   homeText = "Hello friends"
   hello = "Hi, my name is"
@@ -43,7 +41,6 @@ title = "My new Hugo blog"
 weight = 10
 languageName = "Hun"
 contentDir = "content/hu"
-title = "Az én új Hugo blogom"
 [languages.hu.params]
   homeText = "Sziasztok barátok!"
   hello = "Szia, az én nevem"
@@ -76,22 +73,30 @@ title = "Az én új Hugo blogom"
 
 [menu]
   [[languages.hu.menu.main]]
-    name = "Főoldal"
-    url = "/hu/"
+    name = "Munkáim"
+    url = "/hu/#works"
     weight = 1
   [[languages.hu.menu.main]]
     name = "Blog"
     url = "/hu/blog/"
     weight = 2
+  [[languages.hu.menu.main]]
+    name = "Contact"
+    url = "/hu/#contact"
+    weight = 3
 
     # ENGLISH
   [[languages.en.menu.main]]
-    name = "Home"
-    url = "/"
+    name = "Works"
+    url = "/#works"
     weight = 1
   [[languages.en.menu.main]]
     name = "Blog"
     url = "/blog/"
     weight = 2
-  
+  [[languages.en.menu.main]]
+    name = "Contact"
+    url = "/#contact"
+    weight = 3
+    
 

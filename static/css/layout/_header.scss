@@ -1,0 +1,23 @@
+.header {
+    .navigation {
+        height: 80px;
+        width: 90vw;
+        margin: 0 auto;
+        &__logo {
+            width: 2rem;
+            height: 2rem;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__list {
+            display: flex;
+            flex-direction: row;
+            &__link, &__link--lang {
+                color: $color-text;
+                text-decoration: none;
+                margin-left: .5rem;
+            }
+        }
+    }
+}

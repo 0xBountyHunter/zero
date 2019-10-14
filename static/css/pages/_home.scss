@@ -1,0 +1,20 @@
+.home {
+    min-height: 100vh;
+    &__intro {
+        &__hello {
+            color: $color-action;
+        }
+        &__name {
+            color: $color-white;
+        }
+        &__job {
+            margin-bottom: 2.5rem;
+        }
+        &__para {
+            font-family: $font-serif;
+            margin-bottom: 2.5rem;
+        }
+        
+        
+    }
+}
