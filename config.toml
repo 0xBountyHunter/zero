@@ -1,0 +1,97 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+defaultContentLanguage = "en"
+
+[permalinks]
+  blog = "/:filename/"
+
+
+[languages.en]
+weight = 0
+languageName = "Eng"
+contentDir = "content/en"
+title = "My new Hugo blog"
+[languages.en.params]
+  homeText = "Hello friends"
+  hello = "Hi, my name is"
+  name = "Bence Pintér"
+  job = "I build websites"
+  whatido = "I’m a freelancer web-developer based in Hungary, Pannonhalma specializing in designing and building high quality websites that deliver business results."
+  contact = "Contact me!"
+  worksHeading = "My latest projects"
+  featuredProject = "Featured project"
+  markus = "Markus trainer"
+  markusPara = ""
+  serviceHeading = "My services"
+  serviceName1 = "Web design"
+  servicePara1 = "First step is to design your site. I design in a clean style with an emphasis on usability, visual hierarchy and the right typography with good contrast."
+  serviceName2 = "Web development"
+  servicePara2 = "After design I develop your website with HTML & SCSS. Responsive design for all screen sizes are provided."
+  serviceName3 = "Graphic Design"
+  servicePara3 = "However usually I’m hired for websites,  I can design other stuff  like business cards, flyers, etc.. That’s not my speciality but I can do the job."
+  serviceName4 = "Domain & Hosting"
+  servicePara4 = "I can buy and configure a domain name and a hosting server for your website. HTTPS & SSL certification is provided."
+  contactHeading = "Get in touch!"
+  contactPara1 = "I'm currently looking for freelance opportunities. Whether for a potential project or just to say hi, I'll try my best to answer your email! Until then you can check out my blog"
+  contactName = "Your full name"
+  contactEmail = "Your email address"
+  contactMessage = "Your message..."
+  contactSend = "Send message"
+
+[languages.hu]
+weight = 10
+languageName = "Hun"
+contentDir = "content/hu"
+title = "Az én új Hugo blogom"
+[languages.hu.params]
+  homeText = "Sziasztok barátok!"
+  hello = "Szia, az én nevem"
+  name = "Pintér Bence"
+  job = "Weboldalakat csinálok"
+  whatido = "Szabaduszó webfejlesztő vagyok Pannonhalmáról, kiváló minőségű webhelyeket tervezek és valósítok meg, melyek üzleti eredményeket hoznak."
+  contact = "Keress fel!"
+  worksHeading = "Legfrissebb projekteim"
+  featuredProject = "Kiemelt projekt"
+  markus = "Márkus trainer"
+  markusPara = ""
+  serviceHeading = "Szolgáltatásaim"
+  serviceName1 = "Web design"
+  servicePara1 = "Az első lépés az oldalad megtervezése. Tiszta stílusban tervezek, hangsúlyt fektetve a használhatóságra, a vizuális hierarchiára a megfelelő tipográfia a jó kontraszt mellett."
+  serviceName2 = "Webfejlesztés"
+  servicePara2 = "A tervezés után elkezdem felépíteni az oldalad HTML és SCSS-el. Minden képernyőre alkalmas reszponzív designt biztosítok."
+  serviceName3 = "Grafikus Design"
+  servicePara3 = "Általában weboldalak miatt vagyok bérelve, de tudok tervezni más dolgokat is mint névjegykártyák, szórólapok, stb... Nem ez a specialitásom, de meg tudom csinálni."
+  serviceName4 = "Domain & Hosting"
+  servicePara4 = "Megvásárolhatom és konfigurálhatom a domain nevedet és a hosting szervert a webhelyedre. HTTPS és SSL tanúsítvány nyújtok."
+  contactHeading = "Keress fel!"
+  contactPara1 = "Jelenleg szabadúszó lehetőségeket keresek. Legyen szó akár egy potenciális projektről, vagy csak egy hellora, megpróbálok válaszolni az e-mailedre! Addig is megnézheted a blogomat"
+  contactName = "Teljes neved"
+  contactEmail = "Email címed"
+  contactMessage = "Üzeneted..."
+  contactSend = "Üzenet küldése"
+
+
+
+
+[menu]
+  [[languages.hu.menu.main]]
+    name = "Főoldal"
+    url = "/hu/"
+    weight = 1
+  [[languages.hu.menu.main]]
+    name = "Blog"
+    url = "/hu/blog/"
+    weight = 2
+
+    # ENGLISH
+  [[languages.en.menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[languages.en.menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  
+
