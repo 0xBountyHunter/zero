@@ -17,7 +17,11 @@
                 color: $color-text;
                 text-decoration: none;
                 margin-left: .5rem;
+                @media only screen and (min-width: $bp-sm) {
+                    margin-left: 2rem;
+                }
             }
         }
     }
 }
+

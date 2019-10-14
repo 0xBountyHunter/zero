@@ -1,0 +1,21 @@
+.services {
+    &__box {
+        background-color: $color-box;
+        border-radius: 5px;
+        padding: 1.5rem;
+        &--1 {
+            margin-top: 2rem;
+        }
+        &--name {
+            color: $color-white;
+            display: block;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: .75rem;
+        }
+        &--para {
+            font-family: $font-serif;
+        }
+        margin-bottom: 3rem;
+    }
+}

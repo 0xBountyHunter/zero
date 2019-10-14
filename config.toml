@@ -36,6 +36,7 @@ contentDir = "content/en"
   contactEmail = "Your email address"
   contactMessage = "Your message..."
   contactSend = "Send message"
+  copyright = "Built and designed by Bence Pintér - 2019© All rights reserved."
 
 [languages.hu]
 weight = 10
@@ -67,7 +68,7 @@ contentDir = "content/hu"
   contactEmail = "Email címed"
   contactMessage = "Üzeneted..."
   contactSend = "Üzenet küldése"
-
+  copyright = "Tervezve és kivitelezve - Pintér Bence - 2019© Minden jog fenntartva."
 
 
 

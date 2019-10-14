@@ -10,14 +10,28 @@
             color: $color-action;
             margin-top: 2rem;
         }
-        
+        &__para {
+            margin-bottom: 1rem;
+        }
+        &__list {
+            &--item {
+                margin-left: 1rem;
+                list-style-type: square;
+            }
+        }
         &__picture {
             border-radius: 5px;
         }
-        
         &__texts {
             padding: 1rem;
         }
-        
+        &__flex {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+        &__link {
+            display: inline-block;
+        }
     }
 }

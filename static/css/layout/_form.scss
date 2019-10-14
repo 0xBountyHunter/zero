@@ -1,0 +1,16 @@
+.contact__box {
+    padding: 2.5rem 1.5rem;
+    background-color: $color-box;
+    &--item {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        background-color: $color-text;
+        border-radius: 3px;
+        border: none;
+        font-family: $font-serif;
+    }
+    &--message {
+        resize: none;
+    }
+}
