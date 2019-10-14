@@ -1,0 +1,23 @@
+.works {
+    &__project {
+        background-color: $color-box;
+        border-radius: 5px;
+        &__name {
+            margin-top: 0.25rem;
+        }
+        &__featured {
+            display: block;
+            color: $color-action;
+            margin-top: 2rem;
+        }
+        
+        &__picture {
+            border-radius: 5px;
+        }
+        
+        &__texts {
+            padding: 1rem;
+        }
+        
+    }
+}

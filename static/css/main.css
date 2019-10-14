@@ -107,7 +107,12 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
-  color: #fff;
+  color: #FFF;
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: #9ba6c7;
 }
 
 .para {
@@ -178,7 +183,15 @@ h2 {
 }
 
 .home {
+  position: relative;
   min-height: 100vh;
+}
+
+.home__intro {
+  position: absolute;
+  top: 40%;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
 }
 
 .home__intro__hello {
@@ -196,5 +209,28 @@ h2 {
 .home__intro__para {
   font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   margin-bottom: 2.5rem;
+}
+
+.works__project {
+  background-color: #15202B;
+  border-radius: 5px;
+}
+
+.works__project__name {
+  margin-top: 0.25rem;
+}
+
+.works__project__featured {
+  display: block;
+  color: #2ecb6f;
+  margin-top: 2rem;
+}
+
+.works__project__picture {
+  border-radius: 5px;
+}
+
+.works__project__texts {
+  padding: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

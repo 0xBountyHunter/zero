@@ -1,18 +1,20 @@
 <section class="section works" id="works">
     <h2 class="works__heading h2">{{ .Site.Params.worksHeading }}</h2>
+    <span class="works__project__featured">{{ .Site.Params.featuredProject }}</span>
+    <h3 class="works__project__name">{{ .Site.Params.markus }}</h3>
     <div class="works__project works__project__markus">
         <picture class="works__project__picture">
-            <img src="" alt="Weight plates">
+            <img src="img/pictures/weights.png" alt="Weight plates">
         </picture>
-        <span class="works__project__featured">{{ .Site.Params.featuredProject }}</span>
-        <span class="works__project__name">{{ .Site.Params.markus }}</span>
-        <p class="para works__project__para"></p>
-        <ul class="works__project__list">
-            <li class="works__project__list--item">Web-design</li>
-            <li class="works__project__list--item">UI design</li>
-            <li class="works__project__list--item">Branding</li>
-        </ul>
-        <a href="" class="works__project__github-link"><img src="" alt="Github"></a>
-        <a href="" class="works__project__external-link"><img src="" alt="Website"></a>
+        <div class="works__project__texts">
+            <p class="para works__project__para">{{ .Site.Params.markusPara }}</p>
+            <ul class="works__project__list">
+                <li class="works__project__list--item">Web-design</li>
+                <li class="works__project__list--item">UI design</li>
+                <li class="works__project__list--item">Branding</li>
+            </ul>
+            <a href="" class="works__project__github-link"><img src="img/logos/github.svg" alt="Link to github repository"></a>
+            <a href="" class="works__project__external-link"><img src="img/logos/external.svg" alt="Link to external website"></a>
+        </div>
     </div>
 </section>
