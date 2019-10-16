@@ -2,8 +2,10 @@
     <h2 class="h2 contact__heading">{{ .Site.Params.contactHeading }}</h2>
     <p class="contact__para para">{{ .Site.Params.contactPara1 }}</p>
     <div class="contact__box">
-        <input class="contact__box--item" type="text" placeholder="{{ .Site.Params.contactName }}">
-        <input class="contact__box--item" type="email" placeholder="{{ .Site.Params.contactEmail }}">
+        <div class="contact__box__grid">
+            <input class="contact__box--item contact__box--item--1" type="text" placeholder="{{ .Site.Params.contactName }}">
+            <input class="contact__box--item contact__box--item--2" type="email" placeholder="{{ .Site.Params.contactEmail }}">
+        </div>
         <textarea class="contact__box--item contact__box--message" type="text" placeholder="{{ .Site.Params.contactMessage }}"></textarea>
         <a href="#" class="contact__cta cta">{{ .Site.Params.contactSend }}</a>
     </div>

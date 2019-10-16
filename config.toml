@@ -20,18 +20,19 @@ contentDir = "content/en"
   worksHeading = "My latest projects"
   featuredProject = "Featured project"
   markus = "Markus trainer"
-  markusPara = "lorem ipsum dolor sit amen. lorem ipsum dolor sit amen. lorem ipsum dolor."
+  markusPara = "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size."
+
   serviceHeading = "My services"
-  serviceName1 = "Web design"
+  serviceName1 = "Web Design"
   servicePara1 = "First step is to design your site. I design in a clean style with an emphasis on usability, visual hierarchy and the right typography with good contrast."
   serviceName2 = "Web development"
-  servicePara2 = "After design I develop your website with HTML & SCSS. Responsive design for all screen sizes are provided."
+  servicePara2 = "After design I develop your website with HTML & SCSS. Custom made responsive design for all screen sizes are provided."
   serviceName3 = "Graphic Design"
   servicePara3 = "However usually I’m hired for websites,  I can design other stuff  like business cards, flyers, etc.. That’s not my speciality but I can do the job."
   serviceName4 = "Domain & Hosting"
   servicePara4 = "I can buy and configure a domain name and a hosting server for your website. HTTPS & SSL certification is provided."
   contactHeading = "Get in touch!"
-  contactPara1 = "I'm currently looking for freelance opportunities. Whether for a potential project or just to say hi, I'll try my best to answer your email! Until then you can check out my blog"
+  contactPara1 = "I'm currently looking for freelance opportunities. Whether for a potential project or just to say hi, I'll try my best to answer your email!"
   contactName = "Your full name"
   contactEmail = "Your email address"
   contactMessage = "Your message..."
@@ -52,18 +53,19 @@ contentDir = "content/hu"
   worksHeading = "Legfrissebb projekteim"
   featuredProject = "Kiemelt projekt"
   markus = "Márkus trainer"
-  markusPara = "lorem ipsum dolor sit amen. lorem ipsum dolor sit amen. lorem ipsum dolor."
+  markusPara = "A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size."
   serviceHeading = "Szolgáltatásaim"
-  serviceName1 = "Web design"
+  
+  serviceName1 = "Web Design"
   servicePara1 = "Az első lépés az oldalad megtervezése. Tiszta stílusban tervezek, hangsúlyt fektetve a használhatóságra, a vizuális hierarchiára a megfelelő tipográfia a jó kontraszt mellett."
   serviceName2 = "Webfejlesztés"
-  servicePara2 = "A tervezés után elkezdem felépíteni az oldalad HTML és SCSS-el. Minden képernyőre alkalmas reszponzív designt biztosítok."
+  servicePara2 = "A tervezés után elkezdem felépíteni az oldalad HTML és SCSS-el. Minden képernyőre alkalmas egyedi reszponzív designt biztosítok."
   serviceName3 = "Grafikus Design"
   servicePara3 = "Általában weboldalak miatt vagyok bérelve, de tudok tervezni más dolgokat is mint névjegykártyák, szórólapok, stb... Nem ez a specialitásom, de meg tudom csinálni."
   serviceName4 = "Domain & Hosting"
-  servicePara4 = "Megvásárolhatom és konfigurálhatom a domain nevedet és a hosting szervert a webhelyedre. HTTPS és SSL tanúsítvány nyújtok."
+  servicePara4 = "Megvásárolhatom és konfigurálhatom a domain nevedet és a hosting szervert a webhelyedre. HTTPS-t és SSL tanúsítványt nyújtok."
   contactHeading = "Keress fel!"
-  contactPara1 = "Jelenleg szabadúszó lehetőségeket keresek. Legyen szó akár egy potenciális projektről, vagy csak egy hellora, megpróbálok válaszolni az e-mailedre! Addig is megnézheted a blogomat"
+  contactPara1 = "Jelenleg szabadúszó lehetőségeket keresek. Legyen szó akár egy potenciális projektről, vagy csak egy hellóról, megpróbálok válaszolni az e-mailedre!"
   contactName = "Teljes neved"
   contactEmail = "Email címed"
   contactMessage = "Üzeneted..."
@@ -77,12 +79,12 @@ contentDir = "content/hu"
     name = "Munkáim"
     url = "/hu/#works"
     weight = 1
+  #[[languages.hu.menu.main]]
+    #name = "Blog"
+    #url = "/hu/blog/"
+    #weight = 2
   [[languages.hu.menu.main]]
-    name = "Blog"
-    url = "/hu/blog/"
-    weight = 2
-  [[languages.hu.menu.main]]
-    name = "Contact"
+    name = "Elérhetőség"
     url = "/hu/#contact"
     weight = 3
 
@@ -91,10 +93,10 @@ contentDir = "content/hu"
     name = "Works"
     url = "/#works"
     weight = 1
-  [[languages.en.menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 2
+  #[[languages.en.menu.main]]
+    #name = "Blog"
+    #url = "/blog/"
+    #weight = 2
   [[languages.en.menu.main]]
     name = "Contact"
     url = "/#contact"

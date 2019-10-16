@@ -1,8 +1,8 @@
 $color-box: #15202B;
 $color-white: #FFF;
 $color-bg: #1a1a1a;
-$color-action: #2ecb6f;
-$color-hover: #27ae60;
+$color-hover: #2ecb6f;
+$color-action: #27ae60;
 $color-text: #9ba6c7;
 
 $font-sans: "Poppins", Georgia, Cambria, "Times New Roman", Times, serif;
@@ -10,3 +10,8 @@ $font-serif: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Robo
 $font-mono: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 $bp-sm: 480px;
+$bp-md: 760px;
+$bp-lg: 1200px;
+
+$box-shadow-sm: 0 10px 40px 10px rgba(0,0,0, .35);
+$box-shadow-md: 0 20px 80px 20px rgba(0,0,0, .35);

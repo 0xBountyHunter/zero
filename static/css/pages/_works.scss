@@ -2,13 +2,23 @@
     &__project {
         background-color: $color-box;
         border-radius: 5px;
+        box-shadow: $box-shadow-md;
+        max-width: 550px;
+        @media only screen and (min-width: $bp-lg) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: none;
+        }
+        
         &__name {
             margin-top: 0.25rem;
+            text-align: right;
         }
         &__featured {
             display: block;
             color: $color-action;
             margin-top: 2rem;
+            text-align: right;
         }
         &__para {
             margin-bottom: 1rem;
@@ -20,10 +30,19 @@
             }
         }
         &__picture {
-            border-radius: 5px;
+            img {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                @media only screen and (min-width: $bp-lg) {
+                    border-top-right-radius: 0;
+                    border-bottom-left-radius: 5px;
+                }
+            }
         }
         &__texts {
-            padding: 1rem;
+            padding: 2rem;
+            max-width: 550px;
+            
         }
         &__flex {
             display: flex;
@@ -32,6 +51,16 @@
         }
         &__link {
             display: inline-block;
+        }
+        &__img {
+            &:link, &:visited {
+
+            }
+            &:hover, &:active {
+                path {
+                    fill: $color-hover;
+                }
+            }
         }
     }
 }
