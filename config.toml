@@ -1,4 +1,4 @@
-baseURL = "https://hungry-meninsky-8baed4.netlify.com/"
+baseURL = "https://thezerooo.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 
@@ -102,4 +102,3 @@ contentDir = "content/hu"
     url = "/#contact"
     weight = 3
     
-
