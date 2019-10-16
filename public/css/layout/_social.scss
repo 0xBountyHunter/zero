@@ -1,0 +1,72 @@
+body {
+    position: relative;
+}
+
+.social__left {
+    position: fixed;
+    bottom: 15vh;
+    left: 5vw;
+}
+.social__img {
+    margin-top: 1.5rem;
+    display: block;
+    &:link, &:visited {
+        transition: fill .3s;
+        path {
+            fill: $color-text;
+            
+        }
+        
+    }
+    &:active, &:hover {
+        path {
+            fill: $color-hover;
+        }
+    }
+}
+    
+
+
+.social__right {
+    position: fixed;
+    bottom: 15vh;
+    writing-mode: vertical-rl;
+    right: 5vw;
+    &__email {
+        
+        &:link, &:visited {
+            color: $color-text;
+            text-decoration: none;
+        }
+        &:hover, &:active {
+            color: $color-hover;
+        }
+    }
+}
+
+.line__left {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: calc(5vw + 15px);
+    height: 12.5vh;
+    width: 1px;
+    background-color: $color-text;
+}
+
+.line__right {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: calc(5vw + 12.5px);
+    height: 12.5vh;
+    width: 1px;
+    background-color: $color-text;
+}
+
+.line__right, .line__left, .social__right, .social__left {
+    display: none;
+    @media only screen and (min-width: $bp-lg) {
+        display: block;
+    }
+}

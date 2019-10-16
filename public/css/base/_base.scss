@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $color-bg;
+    color: $color-text;
+    font-family: $font-sans;
+    font-size: 100%;
+}
+.para {
+    font-family: $font-serif;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.section {
+    padding: 5rem 1rem 7.5rem;
+    margin: 0 auto;
+    @media only screen and (min-width: $bp-sm) {
+        padding: 5rem 2.5rem 7.5rem;
+    }
+}
+

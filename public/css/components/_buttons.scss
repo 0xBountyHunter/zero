@@ -1,0 +1,21 @@
+.cta {
+    &:link, &:visited {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5rem;
+    height: 3.5rem;
+    color: $color-action;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid 3px $color-action;
+    border-radius: 3px;
+    transition: background-color .3s, color .3s, border .3s;
+    }
+    &:hover, &:active {
+        background-color: $color-hover;
+        color: $color-white;
+        border: solid 3px $color-hover;
+    }
+    
+}

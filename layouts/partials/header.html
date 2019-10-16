@@ -1,13 +1,13 @@
 <header class="header">
     <nav id="nav" class="navigation">
         {{ $logo := "img/logos/zero-logo.svg" | absURL}}
-        <a href="#" class="navigation__logo"><img src="{{ $logo }}" alt="ZER000 logo"></a>
+        <a href="#" class="navigation__logo" data-aos="fade-in" data-aos-delay="200"><img src="{{ $logo }}" alt="ZER000 logo"></a>
         <ul class="navigation__list">
         {{ range .Site.Menus.main }}
-                <li><a class="navigation__list__link" href="{{ .URL }}">{{ .Name }}</a></li>
+                <li><a class="navigation__list__link" data-aos="fade-in" data-aos-delay="200" href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
             {{ range $.Site.Home.AllTranslations }}
-                <li><a class="navigation__list__link--lang" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+                <li><a class="navigation__list__link--lang" data-aos="fade-in" data-aos-delay="200" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
             {{ end }}
         </ul>
     </nav>

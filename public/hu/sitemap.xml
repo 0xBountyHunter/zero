@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/hu/</loc>
+    <lastmod>2019-10-13T09:38:59+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="http://example.org/hu/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/hu/blog/</loc>
+    <lastmod>2019-10-13T09:38:59+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="http://example.org/hu/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/hu/tags/brandon-sanderson/</loc>
+    <lastmod>2019-10-13T09:38:59+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/brandon-sanderson/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="http://example.org/hu/tags/brandon-sanderson/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/hu/cel/</loc>
+    <lastmod>2019-10-13T09:38:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hu/tags/</loc>
+    <lastmod>2019-10-13T09:38:59+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="http://example.org/hu/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/hu/tags/the-way-of-kings/</loc>
+    <lastmod>2019-10-13T09:38:59+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/the-way-of-kings/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="http://example.org/hu/tags/the-way-of-kings/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/hu/egy-esely/</loc>
+    <lastmod>2019-10-13T09:30:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hu/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="http://example.org/hu/categories/"
+                />
+  </url>
+  
+</urlset>
