@@ -15,4 +15,4 @@ Here's a picture about random Harley Davidson and a driver.
 
 ![A Harley Davidson motorycycle and it's rider.](/harley-davidson-1.jpg "Harley-davidson")
 
-> Yeaaah! Riiidiiing.
+> Yeaaah! Keep on riiidiiing.
