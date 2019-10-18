@@ -12,6 +12,6 @@ I hope it's working!
 
 Here's a picture about random Harley Davidson and a driver.
 
-![A Harley Davidson motorycycle and it's rider.](/harley-davidson-1.jpg "Harley-davidson")
+![Harley Davidson motorcycle with a rider.](static/img/harley-davidson-1.jpg "Harley Davidson motorcycle")
 
-> Yeaaah! Keep on riiidiiing.
+> Keep on riding!
