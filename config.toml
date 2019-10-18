@@ -1,16 +1,20 @@
 baseURL = "https://thezerooo.com/"
-languageCode = "en-us"
 defaultContentLanguage = "en"
-
-[permalinks]
-  blog = "/:filename/"
-
-
+languageCode = "en-us"
 [languages.en]
-weight = 0
-languageName = "Eng"
 contentDir = "content/en"
+languageName = "Eng"
+weight = 0
+[[languages.en.menu.main]]
+name = "Works"
+url = "/#works"
+weight = 1
+[[languages.en.menu.main]]
+name = "Contact"
+url = "/#contact"
+weight = 3
 [languages.en.params]
+<<<<<<< HEAD
   homeText = "Hello friends"
   hello = "Hi, my name is"
   name = "Bence Pintér"
@@ -39,11 +43,48 @@ contentDir = "content/en"
   contactSend = "Send message"
   copyright = "Built and designed by Bence Pintér - 2019© All rights reserved."
 
+=======
+contact = "Contact me!"
+contactEmail = "Your email address"
+contactHeading = "Get in touch!"
+contactMessage = "Your message..."
+contactName = "Your full name"
+contactPara1 = "I'm currently looking for freelance opportunities. Whether for a potential project or just to say hi, I'll try my best to answer your message!"
+contactSend = "Send message"
+copyright = "Built and designed by Bence Pintér - 2019© All rights reserved."
+featuredProject = "Featured project"
+hello = "Hi, my name is"
+homeText = "Hello friends"
+job = "I build websites"
+markus = "Markus trainer"
+markusPara = "Markus aims to help you reach your fitness goals. I was responsible for building the design of the website, developing, and hosting. I also designed the name-card and the flyer."
+name = "Bence Pintér"
+serviceHeading = "My services"
+serviceName1 = "Web Design"
+serviceName2 = "Web development"
+serviceName3 = "Graphic Design"
+serviceName4 = "Domain & Hosting"
+servicePara1 = "First step is to design your site. I design in a clean style with an emphasis on usability, visual hierarchy and the right typography with good contrast."
+servicePara2 = "After design I develop your website with HTML & SCSS. Custom made responsive design for all screen sizes are provided."
+servicePara3 = "However usually I’m hired for websites,  I can design other stuff  like business cards, flyers, etc.. That’s not my speciality but I can do the job."
+servicePara4 = "I can buy and configure a domain name and a hosting server for your website. HTTPS & SSL certification is provided."
+whatido = "I’m a freelancer web-developer based in Hungary, Pannonhalma specializing in designing and building high quality websites that deliver business results."
+worksHeading = "My latest projects"
+>>>>>>> d3fd7ce956d49b4f93d7b464ff283c01ca32a8eb
 [languages.hu]
-weight = 10
-languageName = "Hun"
 contentDir = "content/hu"
+languageName = "Hun"
+weight = 10
+[[languages.hu.menu.main]]
+name = "Munkáim"
+url = "/hu/#works"
+weight = 1
+[[languages.hu.menu.main]]
+name = "Elérhetőség"
+url = "/hu/#contact"
+weight = 3
 [languages.hu.params]
+<<<<<<< HEAD
   homeText = "Sziasztok barátok!"
   hello = "Szia, az én nevem"
   name = "Pintér Bence"
@@ -102,3 +143,33 @@ contentDir = "content/hu"
     url = "/#contact"
     weight = 3
     
+=======
+contact = "Keress fel!"
+contactEmail = "Email címed"
+contactHeading = "Keress fel!"
+contactMessage = "Üzeneted..."
+contactName = "Teljes neved"
+contactPara1 = "Jelenleg szabadúszó lehetőségeket keresek. Legyen szó akár egy potenciális projektről, vagy csak egy hellóról, megpróbálok válaszolni az üzenetedre!"
+contactSend = "Üzenet küldése"
+copyright = "Tervezve és kivitelezve - Pintér Bence - 2019© Minden jog fenntartva."
+featuredProject = "Kiemelt projekt"
+hello = "Szia, az én nevem"
+homeText = "Sziasztok barátok!"
+job = "Weboldalakat csinálok"
+markus = "Márkus trainer"
+markusPara = "Márkus célja, hogy segítsen elérni fitnesz céljaidat. Feladatom volt a weboldal tervezésének elkészítése, fejlesztése és hosting. Az oldal mellett névjegykártyát és a szórólapot is terveztem. "
+name = "Pintér Bence"
+serviceHeading = "Szolgáltatásaim"
+serviceName1 = "Web Design"
+serviceName2 = "Webfejlesztés"
+serviceName3 = "Grafikus Design"
+serviceName4 = "Domain & Hosting"
+servicePara1 = "Az első lépés az oldalad megtervezése. Tiszta stílusban tervezek, hangsúlyt fektetve a használhatóságra, a vizuális hierarchiára a megfelelő tipográfia a jó kontraszt mellett."
+servicePara2 = "A tervezés után elkezdem felépíteni az oldalad HTML és SCSS-el. Minden képernyőre alkalmas egyedi reszponzív designt biztosítok."
+servicePara3 = "Általában weboldalak miatt vagyok bérelve, de tudok tervezni más dolgokat is mint névjegykártyák, szórólapok, stb... Nem ez a specialitásom, de meg tudom csinálni."
+servicePara4 = "Megvásárolhatom és konfigurálhatom a domain nevedet és a hosting szervert a webhelyedre. HTTPS-t és SSL tanúsítványt nyújtok."
+whatido = "Szabadúszó webfejlesztő vagyok Pannonhalmáról, kiváló minőségű webhelyeket tervezek és valósítok meg, melyek üzleti eredményeket hoznak."
+worksHeading = "Legfrissebb projekteim"
+[permalinks]
+blog = "/:filename/"
+>>>>>>> d3fd7ce956d49b4f93d7b464ff283c01ca32a8eb
