@@ -12,5 +12,5 @@ fields:
   name: tags
   label: tags
 pages:
-- content/hu/blog/teszt-poszt.md
 - content/en/blog/test-post-with-forestry-io.md
+- content/hu/blog/teszt-poszt.md

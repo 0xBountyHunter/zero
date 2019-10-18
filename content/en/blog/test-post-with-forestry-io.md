@@ -15,3 +15,13 @@ Here's a picture about random Harley Davidson and a driver.
 ![Harley Davidson motorcycle with a rider.](static/img/harley-davidson-1.jpg "Harley Davidson motorcycle")
 
 > Keep on riding!
+
+Ez egy lista:
+
+1. Megérett a meggy
+2. Csipkebokor vessző
+3. Te vagy a párom
+
+What is this?
+
+![](img/pictures/weights.png)
