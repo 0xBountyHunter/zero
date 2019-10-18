@@ -23,3 +23,5 @@ Ez egy lista:
 What is this?
 
 ![](../img/harley-davidson-1.jpg)
+
+Lets go buddy! Riding on all the way!
