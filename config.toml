@@ -1,16 +1,20 @@
 baseURL = "https://thezerooo.com/"
-languageCode = "en-us"
 defaultContentLanguage = "en"
-
-[permalinks]
-  blog = "/:filename/"
-
+languageCode = "en-us"
 
 [languages.en]
-weight = 0
-languageName = "Eng"
 contentDir = "content/en"
-[languages.en.params]
+languageName = "Eng"
+weight = 0
+[[languages.en.menu.main]]
+name = "Works"
+url = "/#works"
+weight = 1
+[[languages.en.menu.main]]
+name = "Contact"
+url = "/#contact"
+weight = 3
+[[languages.en.params]]
   homeText = "Hello friends"
   hello = "Hi, my name is"
   name = "Bence Pintér"
@@ -20,7 +24,7 @@ contentDir = "content/en"
   worksHeading = "My latest projects"
   featuredProject = "Featured project"
   markus = "Markus trainer"
-  markusPara = "Markus aims to help you reach your fitness goals. I was responsible for building the design of the website, developing, and hosting. I also designed the name-card and the flyer."
+  markusPara = "Markus aims to help you reach your fitness goals. I was responsible for building the design of the website, developing, and hosting."
 
   serviceHeading = "My services"
   serviceName1 = "Web Design"
@@ -40,10 +44,18 @@ contentDir = "content/en"
   copyright = "Built and designed by Bence Pintér - 2019© All rights reserved."
 
 [languages.hu]
-weight = 10
-languageName = "Hun"
 contentDir = "content/hu"
-[languages.hu.params]
+languageName = "Hun"
+weight = 10
+[[languages.hu.menu.main]]
+name = "Munkáim"
+url = "/hu/#works"
+weight = 1
+[[languages.hu.menu.main]]
+name = "Elérhetőség"
+url = "/hu/#contact"
+weight = 3
+[[languages.hu.params]]
   homeText = "Sziasztok barátok!"
   hello = "Szia, az én nevem"
   name = "Pintér Bence"
@@ -53,7 +65,7 @@ contentDir = "content/hu"
   worksHeading = "Legfrissebb projekteim"
   featuredProject = "Kiemelt projekt"
   markus = "Márkus trainer"
-  markusPara = "Márkus célja, hogy segítsen elérni fitnesz céljaidat. Feladatom volt a weboldal tervezésének elkészítése, fejlesztése és hosting. Az oldal mellett névjegykártyát és a szórólapot is terveztem. "
+  markusPara = "Márkus célja, hogy segítsen elérni fitnesz céljaidat. Feladatom volt a weboldal tervezésének elkészítése, fejlesztése és hosting biztosítása."
   serviceHeading = "Szolgáltatásaim"
   
   serviceName1 = "Web Design"
