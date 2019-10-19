@@ -139,13 +139,16 @@
   <section class="section contact" id="contact" data-aos="fade-up">
     <h2 class="h2 contact__heading" >Get in touch!</h2>
     <p class="contact__para para" >I&#39;m currently looking for freelance opportunities. Whether for a potential project or just to say hi, I&#39;ll try my best to answer your message!</p>
-    <form class="contact__box" netlify>
+    <form class="contact__box" id="form" netlify>
         <div class="contact__box__grid">
-            <input class="contact__box--item contact__box--item--1" type="text" placeholder="Your full name">
-            <input class="contact__box--item contact__box--item--2" type="email" placeholder="Your email address">
+            <input required class="contact__box--item contact__box--item--1" type="name" name="name" placeholder="Your full name">
+            <input required class="contact__box--item contact__box--item--2" type="email" name="email" placeholder="Your email address">
         </div>
-        <textarea class="contact__box--item contact__box--message" type="text" placeholder="Your message..."></textarea>
-        <button href="#" class="contact__cta cta">Send message</button>
+        <textarea required class="contact__box--item contact__box--message" name="message" placeholder="Your message..."></textarea>
+        <a href="#" onclick="document.getElementById('form').submit()" type="submit" class="contact__cta cta">Send message</a>
+        <noscript>
+            <input type="submit" class="cta contact__cta" value="Submit form!" />
+        </noscript>
     </form>
     
     <div class="contact__social">
