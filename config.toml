@@ -25,7 +25,6 @@ weight = 3
   featuredProject = "Featured project"
   markus = "Markus trainer"
   markusPara = "Markus aims to help you reach your fitness goals. I was responsible for building the design of the website, developing, and hosting."
-
   serviceHeading = "My services"
   serviceName1 = "Web Design"
   servicePara1 = "First step is to design your site. I design in a clean style with an emphasis on usability, visual hierarchy and the right typography with good contrast."
@@ -67,7 +66,6 @@ weight = 3
   markus = "Márkus trainer"
   markusPara = "Márkus célja, hogy segítsen elérni fitnesz céljaidat. Feladatom volt a weboldal tervezésének elkészítése, fejlesztése és hosting biztosítása."
   serviceHeading = "Szolgáltatásaim"
-  
   serviceName1 = "Web Design"
   servicePara1 = "Az első lépés az oldalad megtervezése. Tiszta stílusban tervezek, hangsúlyt fektetve a használhatóságra, a vizuális hierarchiára a megfelelő tipográfia a jó kontraszt mellett."
   serviceName2 = "Webfejlesztés"
@@ -86,31 +84,30 @@ weight = 3
 
 
 
-[menu]
-  [[languages.hu.menu.main]]
-    name = "Munkáim"
-    url = "/hu/#works"
-    weight = 1
-  #[[languages.hu.menu.main]]
-    #name = "Blog"
-    #url = "/hu/blog/"
-    #weight = 2
-  [[languages.hu.menu.main]]
-    name = "Elérhetőség"
-    url = "/hu/#contact"
-    weight = 3
+[[languages.hu.menu.main]]
+  name = "Munkáim"
+  url = "/hu/#works"
+  weight = 1
+#[[languages.hu.menu.main]]
+  #name = "Blog"
+  #url = "/hu/blog/"
+  #weight = 2
+[[languages.hu.menu.main]]
+  name = "Elérhetőség"
+  url = "/hu/#contact"
+  weight = 3
 
-    # ENGLISH
-  [[languages.en.menu.main]]
-    name = "Works"
-    url = "/#works"
-    weight = 1
-  #[[languages.en.menu.main]]
-    #name = "Blog"
-    #url = "/blog/"
-    #weight = 2
-  [[languages.en.menu.main]]
-    name = "Contact"
-    url = "/#contact"
-    weight = 3
+  # ENGLISH
+[[languages.en.menu.main]]
+  name = "Works"
+  url = "/#works"
+  weight = 1
+#[[languages.en.menu.main]]
+  #name = "Blog"
+  #url = "/blog/"
+  #weight = 2
+[[languages.en.menu.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 3
     
