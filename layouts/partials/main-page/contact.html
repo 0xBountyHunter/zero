@@ -1,16 +1,13 @@
 <section class="section contact" id="contact" data-aos="fade-up">
     <h2 class="h2 contact__heading" >{{ .Site.Params.contactHeading }}</h2>
     <p class="contact__para para" >{{ .Site.Params.contactPara1 }}</p>
-    <form class="contact__box" id="form" netlify>
+    <form class="contact__box" netlify>
         <div class="contact__box__grid">
-            <input required class="contact__box--item contact__box--item--1" type="name" name="name" placeholder="{{ .Site.Params.contactName }}">
-            <input required class="contact__box--item contact__box--item--2" type="email" name="email" placeholder="{{ .Site.Params.contactEmail }}">
+            <input class="contact__box--item contact__box--item--1" type="text" placeholder="{{ .Site.Params.contactName }}">
+            <input class="contact__box--item contact__box--item--2" type="email" placeholder="{{ .Site.Params.contactEmail }}">
         </div>
-        <textarea required class="contact__box--item contact__box--message" name="message" placeholder="{{ .Site.Params.contactMessage }}"></textarea>
-        <a href="#" onclick="document.getElementById('form').submit()" type="submit" class="contact__cta cta">{{ .Site.Params.contactSend }}</a>
-        <noscript>
-            <input type="submit" class="cta contact__cta" value="Submit form!" />
-        </noscript>
+        <textarea class="contact__box--item contact__box--message" type="text" placeholder="{{ .Site.Params.contactMessage }}"></textarea>
+        <button href="#" class="contact__cta cta">{{ .Site.Params.contactSend }}</button>
     </form>
     
     <div class="contact__social">
